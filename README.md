@@ -97,6 +97,10 @@ MTL outperforms ReasoningBank (+2.9%) and AgentKB (+1.7%) with only **431 memori
 
 > **Coming Soon**
 
+## Acknowledgements
+
+Our work builds upon [Harbor](https://github.com/harbor-framework/harbor) and [Mini-SWE-Agent](https://github.com/SWE-agent/mini-swe-agent). We thank the authors for releasing their code.
+
 ## BibTeX
 
 ```bibtex
