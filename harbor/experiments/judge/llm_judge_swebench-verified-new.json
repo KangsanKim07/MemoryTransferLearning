@@ -1,0 +1,584 @@
+{
+    "preds": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+    ],
+    "gts": [
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+    ],
+    "cases": [
+        {
+            "id": "astropy__astropy-12907",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "astropy__astropy-13033",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "astropy__astropy-13236",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "astropy__astropy-13398",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "astropy__astropy-13453",
+            "pred": false,
+            "gt": true,
+            "response": "FAIL"
+        },
+        {
+            "id": "astropy__astropy-13579",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "astropy__astropy-13977",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "astropy__astropy-14096",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "astropy__astropy-14182",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "astropy__astropy-14309",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "astropy__astropy-14365",
+            "pred": true,
+            "gt": false,
+            "response": "PASS"
+        },
+        {
+            "id": "astropy__astropy-14369",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "astropy__astropy-14508",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "astropy__astropy-14539",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "astropy__astropy-14598",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "astropy__astropy-14995",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "astropy__astropy-7166",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "astropy__astropy-7336",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "astropy__astropy-7606",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "astropy__astropy-7671",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "astropy__astropy-8707",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "astropy__astropy-8872",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-10097",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-10554",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-10880",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-10914",
+            "pred": false,
+            "gt": true,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-10973",
+            "pred": false,
+            "gt": true,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-10999",
+            "pred": true,
+            "gt": false,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11066",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11087",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-11095",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11099",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11119",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11133",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11138",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-11141",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-11149",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11163",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11179",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11206",
+            "pred": false,
+            "gt": true,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-11211",
+            "pred": false,
+            "gt": true,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-11239",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11265",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-11276",
+            "pred": true,
+            "gt": false,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11292",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11299",
+            "pred": false,
+            "gt": true,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-11333",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-11400",
+            "pred": true,
+            "gt": false,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11433",
+            "pred": true,
+            "gt": false,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11451",
+            "pred": false,
+            "gt": true,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-11477",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-11490",
+            "pred": false,
+            "gt": true,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-11532",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11551",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11555",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-11603",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11728",
+            "pred": true,
+            "gt": false,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11734",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-11740",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-11749",
+            "pred": false,
+            "gt": true,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-11790",
+            "pred": true,
+            "gt": false,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11815",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11820",
+            "pred": true,
+            "gt": false,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11848",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11880",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11885",
+            "pred": false,
+            "gt": false,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-11951",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11964",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-11999",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-12039",
+            "pred": true,
+            "gt": true,
+            "response": "PASS"
+        },
+        {
+            "id": "django__django-12050",
+            "pred": false,
+            "gt": true,
+            "response": "FAIL"
+        },
+        {
+            "id": "django__django-12125",
+            "pred": true,
+            "gt": false,
+            "response": "PASS"
+        }
+    ]
+}
