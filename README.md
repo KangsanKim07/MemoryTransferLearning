@@ -19,21 +19,12 @@ Correspondence: kangsan.kim@kaist.ac.kr
 
 We investigate cross-domain memory transfer for coding agents and show that leveraging a unified memory pool from heterogeneous benchmarks improves average performance by **3.7%**. Abstraction is the key: high-level insights generalize across domains while low-level traces induce negative transfer.
 
-## Abstract
-
-Memory-based self-evolution has emerged as a promising paradigm for coding agents. However, existing approaches typically restrict memory utilization to homogeneous task domains, failing to leverage the shared infrastructural foundations — such as runtime environments and programming languages — that exist across diverse real-world coding problems.
-
-To address this limitation, we investigate **Memory Transfer Learning (MTL)** by harnessing a unified memory pool from heterogeneous domains. We evaluate performance across 6 coding benchmarks using four memory representations, ranging from concrete traces to abstract insights. Our experiments demonstrate that cross-domain memory improves average performance by **3.7%**, primarily by transferring meta-knowledge, such as validation routines, rather than task-specific code.
-
-Importantly, we find that abstraction dictates transferability; high-level insights generalize well, whereas low-level traces often induce negative transfer due to excessive specificity. Furthermore, we show that transfer effectiveness scales with the size of the memory pool, and memory can be transferred even between different models.
-
 ## Overview
 
 Existing self-evolving coding agents restrict memory usage to the same benchmark. We propose **Memory Transfer Learning (MTL)**, which leverages a unified memory pool from heterogeneous domains, and show it consistently outperforms domain-restricted approaches.
 
 <div align="center">
-<img src="images/concept_figure_abc.png" width="55%" />
-<img src="images/concept_figure_d.png" width="40%" />
+<img src="images/concept_figure2.png" width="80%" />
 </div>
 
 **(A)** Memory-less agents cannot reflect on past experience. **(B)** Self-evolving agents leverage memory but only within a single domain. **(C)** MTL leverages a unified memory pool from heterogeneous coding tasks. **(D)** MTL (hatched bars) consistently outperforms self-evolving agents across all four memory formats.
@@ -99,10 +90,6 @@ MTL outperforms ReasoningBank (+2.9%) and AgentKB (+1.7%) with only **431 memori
 - **Finding 3**: More abstract and generalized memory representations yield higher transfer effectiveness by avoiding brittle implementation anchoring.
 - **Finding 4**: Negative memory transfer arises from domain-mismatched misleading anchors, false validation signals, and misapplied procedural reuse.
 - **Finding 5**: MTL effectiveness scales with the size of the memory pool and the number of source domains.
-
-<div align="center">
-<img src="images/pool_size.png" width="70%" />
-</div>
 - **Finding 6**: Memory can be transferred across different models; self-generated memories yield the best performance, but cross-model transfer consistently beats zero-shot.
 - **Finding 7**: Cross-domain memory retrieval is inherently challenging; static retrieval methods fail to generalize in heterogeneous agentic settings.
 
